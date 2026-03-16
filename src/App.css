@@ -1,0 +1,40 @@
+body, #root {
+  background-color: rgba(0, 0, 0, 0.975);
+}
+
+
+
+main {
+  background-color: rgba(6, 4, 0, 0.902);
+}
+
+table, th, td {
+  table-layout: fixed;
+}
+
+.title {
+  background-color: rgba(6, 4, 0, 0.902);
+  padding-bottom: 1rem;
+}
+
+.footer {
+  min-height: 3rem;
+  background-color: rgba(6, 4, 0, 0.902);
+  flex-shrink: 0;
+}
+
+.button {
+  background: none;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: goldenrod;
+}
+
+.button:active {
+  color: white;
+}
+
